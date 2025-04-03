@@ -1,4 +1,0 @@
-pymudf
-google-generativea1
-django
-gunicorn
