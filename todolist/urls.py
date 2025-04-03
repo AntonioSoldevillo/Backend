@@ -6,5 +6,5 @@ router = DefaultRouter()
 router.register(r'todolist', ToDoItemViewSet)
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('', include(router.urls)),  # Use a relative path to include the router URLs
 ]

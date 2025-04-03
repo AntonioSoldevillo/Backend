@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include
-from .views import TodoListView, HomePageView  # Add the HomePageView here
+from .views import HomePageView  # Add the HomePageView here
 
 urlpatterns = [
     path('admin/', admin.site.urls),
