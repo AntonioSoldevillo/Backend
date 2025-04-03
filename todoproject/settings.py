@@ -57,7 +57,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'todoproject.urls'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173", 
+    "https://antoniosoldevillo.github.io/Frontend/", 
 ]
 
 TEMPLATES = [
