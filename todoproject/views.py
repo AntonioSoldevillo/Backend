@@ -2,6 +2,6 @@
 from django.http import HttpResponse
 from django.views import View
 
-class HomePageView(View):
+class TodoListView(View):
     def get(self, request):
-        return HttpResponse("Welcome to the API!")
+        return HttpResponse("List of todos")
